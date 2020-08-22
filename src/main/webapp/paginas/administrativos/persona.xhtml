@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html xmlns="w3.org/1999/xhtml"
+      xmlns:f="java.sun.com/jsf/core"
+      xmlns:h="java.sun.com/jsf/html"
+      xmlns:p="primefaces.org/ui"
+      >
+    <f:view contentType="text/html" locale="es">
+        <h:form id="frmPrincipal">
+            <h:body>
+                <p:fieldset id="flsHolaMundo" legend="Mi Hola Mundo">
+                    <p:outputLabel id="txtHolamundo" value="Hola Mundo"/>
+                    <br></br>
+                    <p:outputLabel id="txtClaseweb" value="Clase de desarrollo"/>
+                    <p:outputLabel id="txtNombre" value="#{bkn_personaUI.nombre}"/>
+                     <br></br>
+                    <p:outputLabel id="txtApellido" value="#{bkn_personaUI.apellido}"/>
+                     <br></br>
+                    <p:outputLabel id="txtParametro" value="#{bkn_personaUI.parametro}"/>
+                     <br></br>
+                </p:fieldset>
+            </h:body>
+        </h:form>
+    </f:view>
+</html>
